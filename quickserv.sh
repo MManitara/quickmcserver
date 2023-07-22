@@ -84,7 +84,7 @@ fi
 sleep 1
 echo "Server configuration has finished! Do you wish to boot the server now?"
 read -p "(y/n)" bootnow
-if [ $bootnow == "Y" ]; then
+if [ $bootnow == "y" ]; then
 	echo "If you intend to play with friends, make sure you have port '25565' (or the one you set during config) forwarded on your network!"
 	sleep 1
 	echo "Starting server..."
